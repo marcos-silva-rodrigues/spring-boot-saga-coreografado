@@ -12,6 +12,7 @@ import br.com.microservices.choreography.inventoryservice.core.model.Inventory;
 import br.com.microservices.choreography.inventoryservice.core.model.OrderInventory;
 import br.com.microservices.choreography.inventoryservice.core.repository.InventoryRepository;
 import br.com.microservices.choreography.inventoryservice.core.repository.OrderInventoryRepository;
+import br.com.microservices.choreography.inventoryservice.core.saga.SagaExecutionController;
 import br.com.microservices.choreography.inventoryservice.core.utils.JsonUtil;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -26,10 +27,9 @@ public class InventoryService {
 
   private static final String CURRENT_SOURCE = "INVENTORY_SERVICE";
 
-  private final KafkaProducer producer;
-  private final JsonUtil jsonUtil;
   private final InventoryRepository inventoryRepository;
   private final OrderInventoryRepository orderInventoryRepository;
+  private final SagaExecutionController sagaExecutionController;
 
   public void updateInventory(Event event) {
     try {
@@ -42,7 +42,7 @@ public class InventoryService {
       handleFailCurrentNotExecuted(event, ex.getMessage());
     }
 
-    producer.sendEvent(jsonUtil.toJson(event));
+    sagaExecutionController.handleSaga(event);
   }
 
   private void createOrderInventory(Event event) {
@@ -135,7 +135,7 @@ public class InventoryService {
       addHistory(event, "Rollback not executed for inventory: ".concat(ex.getMessage()));
     }
 
-    producer.sendEvent(jsonUtil.toJson(event));
+    sagaExecutionController.handleSaga(event);
   }
 
   private void returnInventoryToPreviousValues(Event event) {
