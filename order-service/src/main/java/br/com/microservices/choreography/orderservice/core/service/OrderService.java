@@ -34,20 +34,12 @@ public class OrderService {
 
     repository.save(order);
 
-    var event = createPayload(order);
+    var event = eventService.createEvent(order);
     sagaProducer.sendEvent(jsonUtil.toJson(event));
     return order;
   }
 
-  private Event createPayload(Order order) {
-    var event = Event.builder()
-            .orderId(order.getId())
-            .transactionId(order.getTransactionId())
-            .payload(order)
-            .createdAt(LocalDateTime.now())
-            .build();
-    return eventService.save(event);
-  }
+
 
 
 }
