@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b8ac867-0307-4618-8f43-e949feb29ca9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/saga-orquestrado.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/OrchestratorServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/config/exception/ValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/config/kafka/KafkaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/consumer/SagaOrchestratorConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/dto/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/dto/History.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/dto/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/dto/OrderProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/dto/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/enums/EEventSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/enums/ESagaStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/enums/ETopics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/producer/SagaOrchestratorProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/saga/SagaExecutionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/saga/SagaHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/service/OrchestratorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/java/br/com/microservices/orchestrated/orchestratorservice/core/utils/JsonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator-service/src/main/resources/application.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2h3pjbvUMRDXbX4C1uqWHZb7yFt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "<unknown>",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projetos/saga-coreografado"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b8ac867-0307-4618-8f43-e949feb29ca9" name="Changes" comment="" />
+      <created>1716832750891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716832750891</updated>
+    </task>
+    <servers />
+  </component>
+</project>
