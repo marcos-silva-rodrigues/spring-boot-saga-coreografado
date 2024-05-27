@@ -8,7 +8,7 @@ spring:
       inventory-success: inventory-success
       inventory-fail: inventory-fail
       payment-fail: payment-fail
-      notify-ending: notify-endings
+      notify-ending: notify-ending
     consumer:
       group-id: inventory-group
       auto-offset-reset: latest
